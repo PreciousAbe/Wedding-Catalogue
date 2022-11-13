@@ -1,0 +1,516 @@
+ :root {
+  --contact-color: #b9aea6;  
+  --secondary-color: #f4b083; 
+  --default-color: ;
+  --heading-font-family: Verdana, Geneva, Tahoma, sans-serif;
+  --default-font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  font-family: "poppins" sans-serif;
+  background-color: rgb(250, 247, 247);
+  /* margin: 60px auto; */
+} 
+
+p {
+  font-family: var(--default-font-familyfont-family);
+  font-weight: normal;
+}
+
+.header {
+  padding: 1px 330px;
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.header p {
+  font-family: var(--default-font-family);
+  color: #272142;
+  margin: 0;
+  font-size: 17px;
+}
+
+.header h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+} 
+
+h1 {
+  font-size: 20px;
+}
+
+.btn-contact {
+  font: 18px;
+  background: var(--contact-color);
+  border-radius: 4px;
+  color: white;
+  padding: 18px 30px;
+  line-height: 27px;
+}
+.btn-contact:hover {
+  background-color: white;
+} 
+
+h2 {
+  font-weight: 50px;
+}
+/* h4{
+  font-size: 48px;
+} */
+p {
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+a:hover{
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+.logo {
+    font-size: 20px;
+    letter-spacing: 0.4rem;
+    line-height: 60px;
+    text-shadow: 2px 2px 3px var(--background-color);
+    text-transform: uppercase;
+  }
+  .img-fluid {
+  display: block;
+  margin: auto 0px;
+  }
+.button{
+  background-color: var(--secondary-color);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  font-family: var(--heading-font-family);
+  font-size: 18px;
+   font-style: italic; 
+  padding: 5px 15px;
+  transition: all 150ms ease-in-out;
+}
+.btn-classic {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+.btn:hover{
+  color: black;
+}
+
+
+.project-detail {
+  padding: 50px 20px;
+}
+.content-container{
+  padding: 100px 20px;
+}
+.content {
+  margin: 30px;
+}
+.content-container {
+  font-size: 40px;
+  line-height: 80px;
+  
+}
+.content-container h2{
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.content-container p {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.content h3 {
+  font-size: 24px;
+  margin: 20px 0 0;
+  line-height: 1.5;
+  font-family: var(--default-font-family);
+}
+.content P {
+  margin: 0;
+  font-size: 18px;
+  font-family: var(--default-font-family);
+ }
+ 
+footer {
+  margin: 60px 0;
+} 
+footer .contact-box {
+  background-color: #ffe6d5;
+  box-shadow: 15px;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p{
+  margin: 0;
+}
+
+
+footer .email-link{
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+footer .email-link {
+  margin: 0 20px;
+  color: var(--contact-color);
+}
+
+footer .email-link:hover{
+  color: var(--secondary-color);
+}
+footer .social-links a{
+  margin: 0 20px;
+  color: var(---contact-color);
+  background-color: #f4b083;;
+  padding: 10px 14px;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  color:white;
+  background-color: #f4b083;
+}
+  /* .wedding {
+  font-size: 10px;
+  font-weight: normal;
+  font-family: var(--default-font-family);
+ }  */
+ /* #reviwes {
+  padding-top: 40px;
+  padding-bottom: 80px;
+  font-family: 'Rubik', sans-serif;
+}
+ .review-author {
+    font-size: 22px;
+    font-weight: 500;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.carousel-indicators {
+    bottom: -58px;
+}
+
+.carousel-indicators li {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.carousel-indicators .active {
+    background-color: #000;
+}
+
+
+@media (max-width: 575px) {
+    .review {
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+   width: 45px;
+   height: 45px;
+}
+@media (max-width: 900px) {
+  body {
+    text-align: center;
+  }
+  .project-detail {
+    padding: 0;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+  }
+
+  h2 {
+    font-size: 42px;
+  }
+  h4{
+    font-size: 26px;
+  }
+
+  .content-container {
+    text-align: center;
+    padding: 0;
+  }
+  .content-container p {
+    font-size: 18px;
+    font-family: var(--default-font-family);
+  }
+  footer .contact-box {
+    padding:30px 120px;
+    box-shadow: 15px;
+    border-radius: 10px;
+  }
+  footer .contact-box {
+    margin: 0;
+  }
+  footer .email-link{
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+footer .email-link {
+  margin: 0 20px;
+  color: var(--contact-color);
+}
+
+footer .email-link:hover{
+  color: var(--secondary-color);
+}
+footer .social-links a{
+  margin: 0 20px;
+  color: var(---contact-color);
+  background-color: #f4b083;;
+  padding: 10px 14px;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  color:white;
+  background-color: #f4b083;
+}
+
+ */
+
+}
+/* @media (min-width:400px) {
+  body {
+    text-align: center;
+  }
+  .container  {
+    text-align: center;
+  }
+} */
+
+
+/*:root {
+  --contact-color: #f7ece4;
+  --secondary-color: #b9aea6;
+  --default-color: ;
+  --heading-font-family: Verdana, Geneva, Tahoma, sans-serif;
+  --default-font-family: "poppins" sans-serif;
+}
+
+body {
+  margin: 60px auto;
+
+  font-family: "poppins" sans-serif;
+}
+
+p {
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+}
+
+.header {
+  text-align: center;
+  padding: 1px 330px;
+}
+
+.header p {
+  font-family: var(--heading-font-family);
+  color: #272142;
+  margin: 0;
+  font-size: 17px;
+}
+
+.header h2 {
+  font-family: var(--default-font-family);
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 20px;
+}
+
+.btn-contact {
+  font: 18px;
+  background: var(--default-color);
+  border-radius: 4px;
+  color: white;
+  padding: 18px 30px;
+  line-height: 27px;
+}
+
+h2 {
+  font-weight: 60px;
+}
+
+p {
+  font-size: 17px;
+  font-weight: normal;
+  line-height: 1.5;
+}
+
+.btn-classic {
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+  color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+
+
+.project-detail {
+  padding: 50px 20px;
+}
+.about-section{
+  padding: 100px 20px;
+}
+.about-section-content {
+  margin: 30px;
+}
+.about-section {
+  font-size: 64px;
+  line-height: 1.5;
+  
+}
+.about-section h2{
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+.about-section p {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+}
+img {
+  height: 50px;
+  width: 400px;
+}
+footer {
+  margin: 60px 0;
+} 
+footer .contact-box {
+  background-image: url(src/image/great.jpg);
+  box-shadow: 15px;
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+footer .contact-box p{
+  margin: 0;
+}
+
+
+footer .email-link{
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+
+footer .email-link {
+  margin: 0 20px;
+  color: var(--contact-color);
+}
+
+footer .email-link:hover{
+  color: var(--secondary-color);
+}
+footer .social-links a{
+  margin: 0 20px;
+  color: var(---contact-color);
+  background-color: #f4b083;;
+  padding: 10px 14px;
+  font-size: 20px;
+  border-radius: 50%;
+  transition: all 150ms ease-in-out;
+}
+footer .social-links a:hover {
+  color:white;
+  background-color: #f4b083;
+}
+/* .wedding {
+   font-size: 10px;
+   font-weight: normal;
+   font-family: var(--default-font-family);
+   
+  
+
+/* picture2 {
+    display: none;
+}
+.thumbnail:hover .picture1 {
+    display: none;
+}
+.thumbnail:hover .picture2 {
+    display: block;
+} *
+
+@media (max-width: 900px) {
+  body {
+    text-align: center;
+  }
+  .project-detail {
+    padding: 0;
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 44px;
+    line-height: 56px;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+
+  .header {
+    padding: 80px 20px;
+  }
+  .about-section{
+    text-align: center;
+    padding: 0;
+  }
+}
+@media (min-width: 768px)
+.top-level-nav-items-container--c5dc8 {
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-height: 120px;
+    padding: 0 32px;
+}
